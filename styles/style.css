@@ -1,6 +1,4 @@
 
-
-
 .header { 
 display: grid;
   grid-template-columns: 1fr 148px 1fr;
@@ -60,53 +58,20 @@ justify-self: center;
 width: 148px;
 height:105px;
 padding-left:8px;
-
-
-
-
  }
  .header__logo-image{
 display: block;
 width: 100%;
-
-
-
-
-
-
-
-
-
-
-
  }
- .header__links-list{
-
- }
- 
-
-
-
- 
- .header__address{
-
-
-}
- 
-
-
- 
- 
 .cover{
 position: relative;
-background-image: url(http://127.0.0.1:5500/-ono-tebe-nado-fd/images/cover.jpg);
+background-image: url(file:///C:/Users/linda/dev/ono-tebe-nado-fd/images/cover.jpg);
   display: block;
   width: 1100px;
   min-height: 757px;
   padding: 146px 50px 50px;
   background-size: cover;
   background-position: center;
-
 }
 .overlay {
   position:absolute;
@@ -117,7 +82,6 @@ background-image: url(http://127.0.0.1:5500/-ono-tebe-nado-fd/images/cover.jpg);
   background-color:rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
-
 .cover__litle{
   display: flex;
   flex-direction: column;
@@ -141,13 +105,11 @@ padding-top: 20px;
   text-align: center;
   padding-top: 20px;
   padding-left: 33px;
-
 }
 .aligned-text_right{
   text-align: end;
   padding-top:20px;
  padding-left: 615px;
-
 }
 .cover__description{
   display: flex;
@@ -159,11 +121,8 @@ gap:105px;
 font-family: Raleway;
 font-size: 22px;
 white-space:nowrap;
-
-
 }
 .cover__description-text{
- 
    color: white;
   word-spacing: 18px;
   text-transform: uppercase;
@@ -175,8 +134,6 @@ white-space:nowrap;
   z-index: 3;
   font-weight: 1;
   letter-spacing: 0px;
-  
-
 }
 .bet-button{
 justify-content: start;
@@ -192,7 +149,6 @@ padding-bottom: 1px;}
 
 .lots{
   padding:179px 24px 153px 24px;
-
 }
 .lots__heading{
   color: black;
@@ -219,7 +175,6 @@ padding-bottom: 1px;}
   min-height: 554px;
   position: relative;
   width: calc(33.3% - 20px);
-
 }
 .card {
   height: 596px;
@@ -230,15 +185,15 @@ padding-bottom: 1px;}
   background-position: center;
 }
 .card_type_film {
-background-image: url(http://127.0.0.1:5500/-ono-tebe-nado-fd/images/card-lot-01.jpg);
+background-image: url(file:///C:/Users/linda/dev/ono-tebe-nado-fd/images/card-lot-01.jpg);
 background-size: cover;
 }
 .card_type_book {
-background-image:url(http://127.0.0.1:5500/-ono-tebe-nado-fd/images/card-lot-02.jpg);
+background-image:url(file:///C:/Users/linda/dev/ono-tebe-nado-fd/images/card-lot-02.jpg);
 background-size: cover;
 }
 .card_type_picture{
-background-image: url(http://127.0.0.1:5500/-ono-tebe-nado-fd/images/card-lot-03.jpg);
+background-image: url(file:///C:/Users/linda/dev/ono-tebe-nado-fd/images/card-lot-03.jpg);
 background-size: cover;
 }
 .card__title{
