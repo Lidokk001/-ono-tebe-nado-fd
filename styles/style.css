@@ -1,5 +1,5 @@
 .header { 
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 148px 1fr;
   align-items: center;
   max-width: 1100px;
@@ -9,7 +9,6 @@ display: grid;
  display: flex;
  padding-right:100px; 
  flex-direction: column;
- align-items:flex-start;
  text-align: left;
  justify-self: end;
  list-style:none;
@@ -50,7 +49,7 @@ list-style:circle;
   margin-left: 15px;
   list-style: none;
  }
- .header__logo { 
+.header__logo { 
  justify-self: center;
  width: 148px;
  height:105px;
@@ -103,9 +102,8 @@ padding-top: 20px;
   padding-left: 33px;
 }
 .aligned-text_right {
-  text-align:flex-end;
   padding-top:20px;
-text-align: right;
+  text-align: right;
 }
 .cover__description {
   display: flex;
@@ -131,13 +129,13 @@ white-space:nowrap;
   letter-spacing: 0px;
 }
 .bet-button {
-background: transparent;
-color: white;
-width: 256px;
-height: 51px;
-border-color: white;
-border-bottom:1px solid white;
-z-index:3;
+ background: transparent;
+ color: white;
+ width: 256px;
+ height: 51px;
+ border-color: white;
+ border-bottom:1px solid white;
+ z-index:3;
  text-transform: uppercase;
 padding-bottom: 1px; 
 }
