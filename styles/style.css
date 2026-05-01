@@ -82,7 +82,7 @@ background-image: url(file:///C:/Users/linda/dev/ono-tebe-nado-fd/images/cover.j
   background-color:rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
-.cover__litle{
+.cover__title{
   display: flex;
   flex-direction: column;
   position: relative;
@@ -287,12 +287,12 @@ row-gap: 100px;
   justify-content: space-between;
   margin: 0 20px 90px 80px;
 }
-.footer_menu{
+.footer__menu{
   display: grid;
   align-items: start;
   justify-items: center;
 }
-.footer_menu_list {
+.footer__menu-list {
 list-style-type: none;
 margin-right: 100px;
 }
