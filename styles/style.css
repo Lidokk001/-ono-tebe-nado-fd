@@ -61,7 +61,7 @@ width: 100%;
  }
 .cover {
 position: relative;
-background-image: url(file:///C:/Users/linda/Downloads/cover.jpg);
+background-image: url(../images/cover.jpg);
   display: block;
   width: 100%;
   min-height: 757px;
