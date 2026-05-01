@@ -30,9 +30,12 @@ a {
 }
 
 img {
-  width: 100%;
+ weight: 100%;
+
+
 }
 
 button {
   font: inherit;
 }
+
