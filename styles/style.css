@@ -105,7 +105,7 @@
 
 .aligned-text_left {
   text-align: left;
-  padding-left: 5px;
+  padding-left: 0px;
   padding-top: 20px;
 }
 
@@ -127,7 +127,7 @@
   justify-content: flex-end;
   position: relative;
   width: 100%;
-  gap: 105px;
+  gap: 110px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   white-space: nowrap;
@@ -140,7 +140,6 @@
   text-transform: uppercase;
   font-size: 22px;
   font-style: normal;
-  padding-left: 7px;
   line-height: 28px;
   z-index: 3;
   font-weight: 400;
@@ -154,7 +153,7 @@
   width: 256px;
   min-height: 51px;
   border-color: white;
-  border-bottom: 1px solid white;
+  border-width: 1px;
   z-index: 3;
   text-transform: uppercase;
   padding-bottom: 1px;
@@ -163,7 +162,7 @@
 }
 
 .lots {
-  padding: 179px 24px 153px 24px;
+  padding: 183px 24px 153px 24px;
 }
 
 .lots__heading {
@@ -173,29 +172,30 @@
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
-  padding-bottom: 35px;
-  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-left: 43px;
 
 }
 
 .lots__card-list {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  box-sizing: border-box;
+
 
 }
 
 .card-link {
-  display: block;
-  height: 100%;
+  display: flex;
   text-decoration: none;
+
 }
 
 .lots__card-list-item {
   position: relative;
   width: calc((100% - 50px) / 3);
+  display: flex;
 }
 
 .card {
@@ -205,7 +205,8 @@
   flex-direction: column;
   position: relative;
   background-position: center;
-  height: 465px;
+  flex-grow: 1;
+
 }
 
 .card_type_film {
@@ -221,15 +222,11 @@
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card_type_book .card__text {
-  position: relative;
-  bottom: 13px;
-}
 
 .card__title {
   position: relative;
   z-index: 1;
-  padding: 48px 40px 0;
+  padding: 49px 40px 0;
   color: white;
   margin: 0;
   max-width: 340px;
@@ -247,12 +244,13 @@
 
 .card__text {
   margin-top: auto;
-  padding: 48px 40px;
+  padding: 30px 40px 50px;
   font-size: 20px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   color: white;
   z-index: 3;
+  line-height: 120%;
 }
 
 .lots__look-more-link {
